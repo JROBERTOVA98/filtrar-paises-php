@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Paises</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <form action="respuesta.php" method="post">
+
+
+    <h2>Escribe que region quieres buscar</h2>
+    <p>europe, asia, americas, oceania, africa</p>
+  
+    <label for="Name">Región: </label> 
+    <input type="text" name="region">
+
+    <h2>Filtrar campos por:</h2>
+    <input type="checkbox" id="nombre" name="name" value="name;">
+    <label for="nombre"> Nombre</label><br>
+    <input type="checkbox" id="capital" name="capital" value="capital;">
+    <label for="capital"> Capital</label><br>
+    <input type="checkbox" id="bandera" name="flag" value="flag;">
+    <label for="bandera"> Bandera </label><br> <br>
+
+    <input type="submit" name="submit" value="Buscar">
+
+
+
+  </form>
+
+
+</body>
+
+</html>
